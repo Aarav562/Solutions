@@ -25,6 +25,11 @@ class product{
         this.price = price;
     }
 
+    public void display(){
+        System.out.println(("Id: " + id));
+        System.out.println("Quantity: "+ quantity);
+        System.out.println("Price: " + price);
+    }
 }
 
 class inventory{
